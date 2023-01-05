@@ -19,6 +19,19 @@
     padding: 18px 35px;
 }
 
+.btn-secondary{
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 12px;
+    border: 0;
+    padding: 18px 35px;
+    border: 1px solid #FD6E0A ;
+    margin-left: 10px;
+}
+
 .header {
     background-color: #FFF8F3;
     background-image: url('/images/header_bg.png'), url(/images/developer.png);
@@ -30,7 +43,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+   padding: 50px 200px;
 }
 
 .nav-title {
@@ -81,9 +94,12 @@ main {
     margin: 0 auto;
 }
 
+section {
+    margin-top: 130px;
+}
+
 /* about section styles */
 .about {
-    margin-top: 130px;
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -120,9 +136,6 @@ main {
 }
 
 /* what i do styles */
-.what-i-do {
-    margin-top: 130px;
-}
 
 .skills-container {
     display: flex;
@@ -146,3 +159,6 @@ main {
 .skill-desc {
     color: #757575;
 }
+
+
+/* resume style */
