@@ -19,6 +19,10 @@
     padding: 18px 35px;
 }
 
+.btn-primary::hover {
+    background-color: #FD6E0A;
+}
+
 .btn-secondary{
     width: 150px;
     height: 64px;
@@ -162,3 +166,34 @@ section {
 
 
 /* resume style */
+
+.resume-content{
+    display: flex;
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color:#474747 ;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-size:20px ;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.resume .desc{
+   color: #757575; 
+   margin-bottom: 10px;
+}
+
+.btn{
+    text-align: center;
+    padding-top: 30px;
+}
